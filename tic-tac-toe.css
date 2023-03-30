@@ -12,6 +12,8 @@ table {
     width : 100%;
     height: 95vh;
     empty-cells: show;
+    font-size: 10vmax;
+    font-family: fantasy;
   }
 
 td {
@@ -30,3 +32,21 @@ td {
     position: fixed;
     text-align: left;
 }
+
+a:link {
+    color: #2c2c54;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #227093;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
